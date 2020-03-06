@@ -1,10 +1,10 @@
-h=6.62607004e-34
-hunits = "m^2kg/s"
+from math import pi, e
+from math import sin, cos, tan, asin, acos, atan, sqrt, log, exp, pow, degrees, radians
+e0 = 8.854187817e-12
+mu0 = 4*pi*1e-7
+h=6.62607004e-34 # m^2kg/s
 na=6.0221415e23
-c=299792458
-cunuts = "m/s"
-
-pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095
+c=299792458 # m/s
 
 class Neutron:
     mass=1.67493e-27 # kg
