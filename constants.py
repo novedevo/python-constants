@@ -7,6 +7,8 @@ na=6.0221415e23
 cal2j = 4.184
 j2cal = 1/4.184
 c=299792458 # m/s
+biotsavart = 'B=(mu0*I)/(2*pi*R)'
+bsk = mu0/2/pi
 
 class Neutron:
     mass=1.67493e-27 # kg
