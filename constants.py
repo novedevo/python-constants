@@ -20,9 +20,12 @@ magnetic_field_from_wire = 'B = bsk*I/R'
 bsk = 2e-7
 
 class Neutron:
-    mass=1.67493e-27 # kg
+    mass = 1.67493e-27 # kg
 class Electron:
-    mass=9.10939e-31 # kg
+    mass = 9.10939e-31 # kg
+    charge = -1.60217662e-19 # Coloumbs
+class Proton:
+    charge = 1.60217662e-19 # Coloumbs
 
 def ln(x):
     return log(x)
