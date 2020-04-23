@@ -6,11 +6,11 @@ h=6.62607004e-34 # m^2kg/s
 na=6.0221415e23
 cal2j = 4.184
 j2cal = 1/4.184
-c=299792458 # m/s
+c=1/sqrt(e0*mu0) # m/s
 Rjoules = 8.31446261815324
 Ratm = 0.082057366080960
 Rtorr = 62.363598221529
-
+Z0 = mu0*c
 
 biotsavart = 'B=(mu0*I)/(2*pi*R)'
 faraday = 'emf induced in loop = - dphi/dt'
